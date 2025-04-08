@@ -1,4 +1,4 @@
-# 🌍 Location API
+# Challenge Geospatial
 
 Uma API RESTful para gerenciar e consultar locais geográficos usando Flask, Nominatim (OpenStreetMap) e SQLite com suporte a SpatiaLite.
 
@@ -80,11 +80,13 @@ docker-compose up --build
 ---
 
 ### Documentação Swagger disponível em:  
-📄 [http://localhost:5000/api/v1/docs](http://localhost:5000/api/v1/docs)
+[http://localhost:5000/api/v1/docs](http://localhost:5000/api/v1/docs)
+
+![image](https://github.com/user-attachments/assets/c45ab5fd-053f-455e-830b-f942919138d7)
 
 ---
 
-## ✅ Executando os testes
+## Executando os testes
 
 ```bash
 poetry shell
@@ -92,10 +94,10 @@ task test
 ```
 
 ---
-
+![challenge (0)](https://github.com/user-attachments/assets/537724a4-c907-48e3-a6d9-c9647b499876)
 ---
 
-## 📄 Licença
+## Licença
 
 Licença MIT.  
 Dados geográficos fornecidos por OpenStreetMap & Nominatim — use com responsabilidade e credite adequadamente.
