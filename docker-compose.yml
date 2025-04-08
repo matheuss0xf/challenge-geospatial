@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flask-spatial-api:
+    build: .
+    container_name: flask-spatial-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
